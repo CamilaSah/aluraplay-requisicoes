@@ -7,13 +7,13 @@ O AluraPlay é uma plataforma de compartilhamento de vídeos da Alura. O projeto
 O resultado proposto no curso era de chegar em uma página com uma listagem de vários vídeos, inseridos através de uma API, no qual era possível clicar no botão superior direito e inserir um novo vídeo.
 
 Para realizar esse projeto, aprendeu-se os seguintes temas:
-* Como instalar o NodeJS e o json-server no projeto
-* Como Mockar uma API com o auxílio do json-server
-* Como criar requisições GET e POST para essa API
-* Revisão dos conceitos de JavaScript assíncrono
-* Criação da funcionalidade de pesquisa
-* Manipulação do DOM
-* Tratamento dos erros de requisições
+* Como instalar o NodeJS e o json-server no projeto;
+* Como Mockar uma API com o auxílio do json-server;
+* Como criar requisições GET e POST para essa API;
+* Revisão dos conceitos de JavaScript assíncrono;
+* Criação da funcionalidade de pesquisa;
+* Manipulação do DOM;
+* Tratamento dos erros de requisições.
 
 ## Screenshots
 ![Screenshot da tela inicial do AluraPlay](https://imgur.com/aymxEsh.png)
@@ -23,10 +23,16 @@ Para realizar esse projeto, aprendeu-se os seguintes temas:
 - `Fazer busca de vídeos`: quando o usuário escrever a palavra chave a ser pesquisada e clicar no botão de buscar, somente os vídeos com aquele termo de busca aparecerão na tela.
 - `Inserir novos vídeos e aparecer na tela inicial`: quando o usuário inserir o link, título e imagem do vídeo a ser adicionado e clicar no botão "Enviar", o novo vídeo será inserido e carregará uma página de sucesso.
 
+![apresentacao-alura-play-busca840](https://github.com/CamilaSah/aluraplay-requisicoes/assets/128820692/2f59e72b-925e-4f19-85c1-638eee188474)
+
+![apresentacao-alura-play-add840](https://github.com/CamilaSah/aluraplay-requisicoes/assets/128820692/72f5ae8a-b99e-429f-8c1d-d978eb338fba)
+
+
 ## 📁 Acesso ao projeto
 Para poder acessar o projeto, você precisa:
 * Instalar o json-server: simula um servidor local no seu computador;
 * Instalar o Node.js: é um ambiente de execução do código Javascript do lado servidor (server side), que permite executar aplicações desenvolvidas com a linguagem sem depender de um navegador.
+* Instalar o Live Server: é uma extensão para o Visual Studio Code que cria um servidor local para hospedar seu projeto e atualizar automaticamente a página quando você faz alterações no código. Você pode usar outra aplicação, caso queira.
 
 O passo a passo para fazer as instalações é:
 1. Entrar no site nodejs.dev e fazer o download no Node;
@@ -36,8 +42,8 @@ O passo a passo para fazer as instalações é:
 5. Dar “Enter” em todas as opções;
 6. Escrever o comando `npm install -g json-server` para executar a instalação do json-server;
 7. Escrever o comando `npx json-server --watch db.json` para iniciar o servidor;
-8. Ele vai iniciar o servidor local em uma porta "x". Quando você quiser acessar o URL vai ser localhost:"x"/videos.
-
+8. Ele vai iniciar o servidor local em uma porta `[PORT_NUMBER]`. Quando você quiser acessar o URL do servidor vai ser localhost:`[PORT_NUMBER]`/videos.
+9. Abrir o `index.html` com o Live Server.
 <br>
 PS.: O projeto só irá funcionar se o servidor local estiver sendo executado no terminal do VSCode.
 
