@@ -52,8 +52,8 @@ Caso você já tenha instalado o Node.js e o json-server:
 2. Abrir o projeto no VSCode.
 3. Abrir o terminal do VSCode.
 4. Clicar em "Terminal" -> “Novo terminal”.
-5. Escrever o comando `npx json-server --watch artists.json` para iniciar o servidor.
-6. Ele vai iniciar o servidor local em uma porta `[PORT_NUMBER]`. Quando você quiser acessar o URL do servidor vai ser localhost:`[PORT_NUMBER]`/artists.
+5. Escrever o comando `npx json-server --watch db.json` para iniciar o servidor.
+6. Ele vai iniciar o servidor local em uma porta `[PORT_NUMBER]`. Quando você quiser acessar o URL do servidor vai ser localhost:`[PORT_NUMBER]`/videos.
 7. Abrir o `index.html` com o Live Server.
 <br>
 PS¹.: Você pode usar o terminal do Git Bash ao invés do VSCode, caso queira.
