@@ -30,22 +30,34 @@ Para realizar esse projeto, aprendeu-se os seguintes temas:
 
 ## 📁 Acesso ao projeto
 Para poder acessar o projeto, você precisa:
-* Instalar o json-server: simula um servidor local no seu computador;
+* Baixar a pasta deste projeto.
+* Instalar o json-server: simula um servidor local no seu computador.
 * Instalar o Node.js: é um ambiente de execução do código Javascript do lado servidor (server side), que permite executar aplicações desenvolvidas com a linguagem sem depender de um navegador.
 * Instalar o Live Server: é uma extensão para o Visual Studio Code que cria um servidor local para hospedar seu projeto e atualizar automaticamente a página quando você faz alterações no código. Você pode usar outra aplicação, caso queira.
 
-O passo a passo para fazer as instalações é:
-1. Entrar no site nodejs.dev e fazer o download no Node;
-2. Abrir o terminal do VSCode;
-3. Clicar em "Terminal" -> “Novo terminal”;
-4. Escrever o comando `npm init` para iniciar o npm dentro do projeto;
-5. Dar “Enter” em todas as opções;
-6. Escrever o comando `npm install -g json-server` para executar a instalação do json-server;
-7. Escrever o comando `npx json-server --watch db.json` para iniciar o servidor;
-8. Ele vai iniciar o servidor local em uma porta `[PORT_NUMBER]`. Quando você quiser acessar o URL do servidor vai ser localhost:`[PORT_NUMBER]`/videos.
-9. Abrir o `index.html` com o Live Server.
+O passo a passo para conseguir acessar o projeto é:
+
+Caso você ainda não tenha instalado o Node.js e o json-server:
+1. Baixar a pasta deste projeto.
+2. Entrar no site nodejs.dev e fazer o download no Node.
+3. Abrir o projeto no VSCode.
+4. Abrir o terminal do VSCode.
+5. Clicar em "Terminal" -> “Novo terminal”.
+6. Escrever o comando `npm init` para iniciar o npm dentro do projeto.
+7. Dar “Enter” em todas as opções.
+8. Escrever o comando `npm install -g json-server` para executar a instalação do json-server.
+
+Caso você já tenha instalado o Node.js e o json-server:
+1. Baixar a pasta deste projeto.
+2. Abrir o projeto no VSCode.
+3. Abrir o terminal do VSCode.
+4. Clicar em "Terminal" -> “Novo terminal”.
+5. Escrever o comando `npx json-server --watch artists.json` para iniciar o servidor.
+6. Ele vai iniciar o servidor local em uma porta `[PORT_NUMBER]`. Quando você quiser acessar o URL do servidor vai ser localhost:`[PORT_NUMBER]`/artists.
+7. Abrir o `index.html` com o Live Server.
 <br>
-PS.: O projeto só irá funcionar se o servidor local estiver sendo executado no terminal do VSCode.
+PS¹.: Você pode usar o terminal do Git Bash ao invés do VSCode, caso queira.
+PS².: O projeto só irá funcionar se o servidor local estiver sendo executado no terminal do VSCode ou no Git Bash.
 
 ## ✔️ Técnicas e tecnologias utilizadas
 Técnicas utilizadas:
